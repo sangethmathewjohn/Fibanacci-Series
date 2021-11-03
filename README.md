@@ -9,6 +9,8 @@
 
       m=fib(50)
       print(m)
+     
+The above code has a exponential time complexity.
 
 ### Using a Dictionary
 
@@ -21,3 +23,5 @@
                 return memo[n]
             m=fib(50)
             print(m) 
+
+The above code has a linear time complexity.
