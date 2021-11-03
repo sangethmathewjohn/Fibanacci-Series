@@ -1,0 +1,11 @@
+# Fibanacci-Series
+
+Normal Recursion Method:
+
+      def fib(n):
+        if(n<=2):
+            return 1
+        return fib(n-1)+fib(n-2)
+
+      m=fib(50)
+      print(m)
